@@ -34,6 +34,16 @@ POST              /api/tasks       Creates a new task
 PUT              /api/tasks/{id}   Updates an existing task
 DELETE          /api/tasks/{id}    Deletes a task
 
+New endpoints
+
+Method      Endpoint                            Description
+GET         /api/tasks/completed                Returns completed tasks
+GET         /api/tasks/incomplete               Returns incomplete tasks
+GET         /api/tasks/priority/{priority}      Filters by priority
+GET         /api/tasks/search?keyword=...       Search by keyword
+GET         /api/tasks/paginated                Returns paginated results
+
 Video Submission-
 
-https://youtu.be/quQYKC-TigY
+[https://youtu.be/quQYKC-TigY
+](https://youtu.be/EDQ14ULkLdE)
